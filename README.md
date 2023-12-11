@@ -14,7 +14,7 @@
 
 ## Introduction
 
-Agelgl is a backend REST API service designed to simplify the process of ordering food from restaurants. It offers a wide range of features, including order management, menu browsing, quick delivery options (food ready in under 30 minutes), customer and vendor roles, and administrative functions. This document serves as a comprehensive guide for using the Agelgl API.
+Delivery is a backend REST API service designed to simplify the process of ordering food from restaurants. It offers a wide range of features, including order management, menu browsing, quick delivery options (food ready in under 30 minutes), customer and vendor roles, and administrative functions. This document serves as a comprehensive guide for using the Delivery API.
 
 ## Features
 
@@ -29,11 +29,11 @@ Agelgl is a backend REST API service designed to simplify the process of orderin
 
 ## Getting Started
 
-Before you can start using the Agelgl API, you need to sign up and obtain an API key. This key is used for authentication and authorization. Once you have your API key, you can start making requests to the API endpoints.
+Before you can start using the Delivery API, you need to sign up and obtain an API key. This key is used for authentication and authorization. Once you have your API key, you can start making requests to the API endpoints.
 
 ## Authentication
 
-Authentication is a crucial part of the Agelgl API. You must include your API key in the request headers to access protected resources. To authenticate your requests, add an `Authorization` header with the `Bearer` token, followed by your API key.
+Authentication is a crucial part of the Delivery API. You must include your API key in the request headers to access protected resources. To authenticate your requests, add an `Authorization` header with the `Bearer` token, followed by your API key.
 
 ```http
 Authorization: Bearer YOUR_API_KEY
@@ -42,7 +42,7 @@ Authorization: Bearer YOUR_API_KEY
 
 # API Endpoints
 
-Agelgl provides several endpoints to perform various operations. Below is a list of the main API endpoints.
+Delivery provides several endpoints to perform various operations. Below is a list of the main API endpoints.
 
 ## Customers
 
@@ -109,7 +109,7 @@ Please refer to the API documentation for detailed information about request par
 
 # Error Handling
 
-Agelgl API handles errors gracefully. If you encounter an issue, you will receive a JSON response with an error message and an appropriate HTTP status code. Make sure to check the response for error details and take appropriate action.
+Delivery API handles errors gracefully. If you encounter an issue, you will receive a JSON response with an error message and an appropriate HTTP status code. Make sure to check the response for error details and take appropriate action.
 
 # Response Codes
 

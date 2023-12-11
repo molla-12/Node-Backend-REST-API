@@ -1,4 +1,4 @@
-# Agelgl - Web Backend REST API Documentation
+# Web Backend REST API Documentation
 
 ## Table of Contents
 

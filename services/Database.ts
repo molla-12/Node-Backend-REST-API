@@ -2,7 +2,6 @@
 import mongoose from 'mongoose';
 import { MONGO_URI } from '../config';
 
-
 export default async () => {
     try {
         mongoose.connect(MONGO_URI, {
@@ -13,8 +12,5 @@ export default async () => {
         })
     } catch (error) {
         console.log(error, "error")
-
-
     }
-
 }    

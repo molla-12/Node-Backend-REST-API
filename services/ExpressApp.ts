@@ -4,7 +4,6 @@ import { AdminRoute, CustomerRoute, VendorRoute } from '../routes';
 import path from 'path';
 import { ShoppingRoute } from '../routes/ShoppingRoute';
 
-
 export default async (app: Application) => {
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));

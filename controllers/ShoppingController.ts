@@ -3,7 +3,6 @@ import { FoodDoc, Vendor } from '../models';
 
 
 export const GetFoodAvailability = async (req: Request, res: Response) => {
-
     try {
         const pincode = req.params.pincode;
 
@@ -19,13 +18,11 @@ export const GetFoodAvailability = async (req: Request, res: Response) => {
             "message": "No Data found"
         })
 
-
     } catch (error) {
 
         return res.status(500).json({
             "message": "Internal server error"
         })
-
     }
 }
 
@@ -39,19 +36,17 @@ export const GetTopRestaurants = async (req: Request, res: Response) => {
             return res.status(200).json({
                 "data": result
             })
-
         }
+        
         return res.status(404).json({
             "message": "No Data found"
         })
-
 
     } catch (error) {
 
         return res.status(500).json({
             "message": "Internal server error"
         })
-
     }
 }
 
@@ -73,21 +68,15 @@ export const GetFoodsIn30Min = async (req: Request, res: Response) => {
             return res.status(200).json({
                 "data": foods
             })
-
-
-
         }
     } catch (error) {
-
         return res.status(500).json({
             "message": "Internal server error"
         })
-
     }
 }
 
 export const SearchFoods = async (req: Request, res: Response) => {
-
     try {
         const searchedFood = req.params.search;
 
@@ -113,7 +102,6 @@ export const SearchFoods = async (req: Request, res: Response) => {
         return res.status(500).json({
             "message": "Internal server error"
         })
-
     }
 }
 

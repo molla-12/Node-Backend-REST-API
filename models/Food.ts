@@ -10,7 +10,6 @@ export interface FoodDoc extends Document {
     readyTime: number;
     rating: number;
     images: [string];
-
 }
 
 const FoodSchema: Schema = new Schema({
